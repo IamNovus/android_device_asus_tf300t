@@ -29,7 +29,7 @@ COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS -DADD_LEGACY_SET_POSITION_SYM
 # Cardhu HAL libraries
 BOARD_HAL_STATIC_LIBRARIES := \
     libdumpstate.cardhu \
-    libhealthd.cardhu
+#    libhealthd.cardhu
 
 # inherit from the proprietary version
 -include vendor/asus/tf300t/BoardConfigVendor.mk
